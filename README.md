@@ -54,8 +54,7 @@ from transformers import pipeline
 generator = pipeline("text-generation", model="ABAKHAR721/gpt2-arabic-finetuned-lab3")
 output = generator("أهمية التعليم في المستقبل", max_length=100, do_sample=True)
 print(output[0]['generated_text'])
-
-
+```
 
 # 📝 What I Learned (Synthesis)
 This lab helped me deepen my understanding of NLP and deep learning.
