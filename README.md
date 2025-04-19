@@ -60,3 +60,23 @@ print(output[0]['generated_text'])
 This lab helped me deepen my understanding of NLP and deep learning.
 I learned how to collect and prepare real-world Arabic datasets, build sequence models using PyTorch, and fine-tune large-scale language models like GPT-2.
 I also practiced evaluation with metrics like BLEU and MSE, and successfully pushed my fine-tuned model and dataset to the Hugging Face Hub.
+
+
+## 🧑‍💻 How to Run the Project
+
+### ⚙️ Environment:
+- Python 3.11+
+- PyTorch
+- Hugging Face Transformers
+- Sentence Transformers
+- Google Colab GPU (recommended)
+
+### 📦 Installation:
+```bash
+pip install transformers sentence-transformers datasets nltk beautifulsoup4
+```
+Then open the notebook (Lab3_Arabic_NLP.ipynb) and run all cells step-by-step.
+
+## 👨‍🎓 Author
+Name: ABAKHAR Abdessamad
+Lab: Deep Learning Lab 3 – Text Classification & Generation
