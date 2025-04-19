@@ -36,10 +36,10 @@ The lab is divided into two major parts:
 
 | Model      | MSE ↓   | R² ↑   | BLEU ↑  |
 |------------|--------|--------|--------|
-| RNN        | 1.54   | -0.04  | 0.0    |
-| GRU        | 2.12   | -0.43  | 0.0    |
-| LSTM       | 4.45   | -2.01  | 0.0    |
-| BiLSTM     | ✅ Fixed | ✅ Working | ✅ Working |
+| RNN        | 0.6279   | -1.6907  | 0.0    |
+| GRU        | 1.5393   | -5.5962  | 0.0    |
+| LSTM       | 5.7165   | -23.4969  | 0.0    |
+| BiLSTM     | 2.0246 | -7.6761 | 0.0 |
 
 ---
 
