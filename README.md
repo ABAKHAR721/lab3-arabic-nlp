@@ -1,5 +1,11 @@
-# 🧠 Lab 3 – Arabic Text Classification & Generation with Deep Learning
 
+# 📝 What I Learned (Synthesis)
+This lab helped me deepen my understanding of NLP and deep learning.
+I learned how to collect and prepare real-world Arabic datasets, build sequence models using PyTorch, and fine-tune large-scale language models like GPT-2.
+I also practiced evaluation with metrics like BLEU and MSE, and successfully pushed my fine-tuned model and dataset to the Hugging Face Hub.
+
+
+# 🧠 Lab 3 – Arabic Text Classification & Generation with Deep Learning
 This project explores both sequence modeling and text generation using deep learning applied to Arabic language data. It is part of a university lab assignment on NLP with PyTorch and Transformers.
 
 ---
@@ -56,10 +62,6 @@ output = generator("أهمية التعليم في المستقبل", max_length
 print(output[0]['generated_text'])
 ```
 
-# 📝 What I Learned (Synthesis)
-This lab helped me deepen my understanding of NLP and deep learning.
-I learned how to collect and prepare real-world Arabic datasets, build sequence models using PyTorch, and fine-tune large-scale language models like GPT-2.
-I also practiced evaluation with metrics like BLEU and MSE, and successfully pushed my fine-tuned model and dataset to the Hugging Face Hub.
 
 
 ## 🧑‍💻 How to Run the Project
